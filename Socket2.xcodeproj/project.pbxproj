@@ -25,6 +25,7 @@
 /* Begin PBXFileReference section */
 		88898C0A1A928E7300B50F77 /* Socket2 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Socket2; sourceTree = BUILT_PRODUCTS_DIR; };
 		88898C0D1A928E7300B50F77 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		88898CAC1A92901400B50F77 /* Sockets-2.3.9.9 2.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "Sockets-2.3.9.9 2.xcodeproj"; path = "../../../../../../../Desktop/Sockets-2.3.9.9 2/Sockets-2.3.9.9 2.xcodeproj"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,8 +59,16 @@
 			isa = PBXGroup;
 			children = (
 				88898C0D1A928E7300B50F77 /* main.cpp */,
+				88898CAC1A92901400B50F77 /* Sockets-2.3.9.9 2.xcodeproj */,
 			);
 			path = Socket2;
+			sourceTree = "<group>";
+		};
+		88898CAD1A92901400B50F77 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -106,6 +115,12 @@
 			mainGroup = 88898C011A928E7200B50F77;
 			productRefGroup = 88898C0B1A928E7300B50F77 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 88898CAD1A92901400B50F77 /* Products */;
+					ProjectRef = 88898CAC1A92901400B50F77 /* Sockets-2.3.9.9 2.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				88898C091A928E7300B50F77 /* Socket2 */,
